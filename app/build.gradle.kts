@@ -26,7 +26,7 @@ android {
     defaultConfig {
         applicationId = "com.example.bluromatic"
         minSdk = 24
-        targetSdk = 33
+        targetSdk =27
         versionCode = 1
         versionName = "1.0"
 
@@ -57,6 +57,7 @@ android {
     }
     composeOptions {
         kotlinCompilerExtensionVersion = rootProject.extra["compose_compiler_version"].toString()
+
     }
     packaging {
         resources {
